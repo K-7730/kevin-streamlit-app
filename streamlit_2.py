@@ -4,7 +4,7 @@ name = st.text_input("请输入你的名字： ") # 创建一个文本输入框�
 
 if name:  # 如果用户输入了名字
     st.write(f"你好，{name}")  # 显示你好➕用户输入的名字 
-    st.image("/Users/kevin.w/Desktop/computing/AI python/5a11f109b61a3ce298bafd95cecc98d2.jpg", width=200) 
+    st.image("5a11f109b61a3ce298bafd95cecc98d2.jpg", width=200) 
     
 st.divider()  # 添加分割线
 
