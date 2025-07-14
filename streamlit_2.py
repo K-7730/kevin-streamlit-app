@@ -28,6 +28,6 @@ if not check:  # 如果用户同意条款和条件
 st.divider()
 
 if check:
-    submit = st.botton("提交")  # 创建一个提交按钮
+    submit = st.button("提交")  # 创建一个提交按钮
     if submit:  # 如果用户点击提交按钮
         st.write("提交成功")  # 显示提交成功信息
