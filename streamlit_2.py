@@ -19,7 +19,7 @@ age = st.number_input("请输入你的年龄： ", min_value=0, max_value=120, v
 
 st.divider()
 
-check = st.checkbox("我同意条款和条件")  # 创建一个复选框，提示用户同意条款和条件
+check = st.checkbox("是否同意波比最厉害👍")  # 创建一个复选框，提示用户同意条款和条件
 if check:  # 如果用户同意条款和条件
     st.write("感谢你同意")  # 显示感谢信息
 if not check:  # 如果用户同意条款和条件
@@ -27,6 +27,7 @@ if not check:  # 如果用户同意条款和条件
     
 st.divider()
 
-submit = st.botton("提交")  # 创建一个提交按钮
-if submit:  # 如果用户点击提交按钮
-    st.write("提交成功")  # 显示提交成功信息
+if check:
+    submit = st.botton("提交")  # 创建一个提交按钮
+    if submit:  # 如果用户点击提交按钮
+        st.write("提交成功")  # 显示提交成功信息
