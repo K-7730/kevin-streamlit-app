@@ -32,3 +32,10 @@ if check:
     submit = st.button("自愿提交")  # 创建一个提交按钮
     if submit:  # 如果用户点击提交按钮
         st.write("提交成功")  # 显示提交成功信息
+        
+        
+        
+#如果要对原链接进行更新
+#1:  git add .
+#2： git commit -m "更新内容"
+#3  git push
