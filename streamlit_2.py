@@ -12,7 +12,10 @@ password = st.text_input("请输入密码： ", type="password")  # 创建一个
 
 st.divider()  
 
-paragraph = st.text_area("请输入一段自我介绍：") # 创建一个大的文本输入框
+#paragraph = st.text_area("请输入一段自我介绍：") # 创建一个大的文本输入框
+# 选项列表, 滑块
+height = st.slider("你的身高是多少？", min_value=0, max_value=250, value=100, step=1)
+
 
 st.divider()  
 
