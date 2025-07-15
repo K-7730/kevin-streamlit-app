@@ -3,8 +3,8 @@ import streamlit as st
 name = st.text_input("请输入你的名字： ") # 创建一个文本输入框，提示用户输入名字
 
 if name:  # 如果用户输入了名字
-    st.write(f"你好，{name}")  # 显示你好➕用户输入的名字 
-    st.image("5a11f109b61a3ce298bafd95cecc98d2.jpg", width=200) 
+    st.write(f"这是你吗，{name}")  # 显示你好➕用户输入的名字 
+    st.image("5a11f109b61a3ce298bafd95cecc98d2.jpg", width=200)  #一定要相对路径，显示一张图片
     
 st.divider()  # 添加分割线
 
@@ -32,10 +32,11 @@ if check:
     submit = st.button("自愿提交")  # 创建一个提交按钮
     if submit:  # 如果用户点击提交按钮
         st.write("提交成功")  # 显示提交成功信息
+        st.image("9737fa712f8f98dfc8992d3e54e8bb0c.jpg")
         
         
         
 # 如果要对原链接进行更新
 #1:  git add .
 #2： git commit -m "更新内容"
-#3  git push
+#3  git push origin main
